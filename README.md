@@ -102,6 +102,7 @@ Installers for the following tools are included:
 | misc | [z3](https://github.com/Z3Prover/z3) | Theorem prover from Microsoft Research. | <!--tool--><!--times-out-->
 | misc | [jdgui](http://jd.benow.ca/) | Java decompiler. | <!--tool--><!--test-->
 | misc | [veles](https://codisec.com/veles/) | Binary data analysis and visulalization tool. | <!--tool--><!--test-->
+| misc | [gittools](https://github.com/internetwache/GitTools) | Public .git Pwning | <!--tool--><!--test-->
 | misc | [youtube-dl](https://yt-dl.org/) | Latest version of the popular youtube downloader. | <!--tool--><!--test-->
 
 There are also a couple of installers for useful libraries included. Currently
