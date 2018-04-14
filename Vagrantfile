@@ -5,7 +5,7 @@ $bootstrap = <<SCRIPT
 sudo apt-get update
 sudo apt-get -fuy -o Dpkg::Options::='--force-confold' install git
 
-git clone https://github.com/zardus/ctf-tools.git /home/vagrant/ctf-tools/
+git clone https://github.com/sin9yt/ctf-tools.git /home/vagrant/ctf-tools/
 /home/vagrant/ctf-tools/bin/manage-tools -s setup
 SCRIPT
 

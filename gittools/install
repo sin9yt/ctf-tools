@@ -1,0 +1,9 @@
+#!/bin/bash -ex
+
+mkdir bin
+git clone --depth 1 https://github.com/internetwache/GitTools.git
+
+cd bin
+ln -s ../GitTools/Dumper/gitdumper.sh .
+ln -s ../GitTools/Extractor/extractor.sh .
+ln -s ../GitTools/Finder/gitfinder.py .
