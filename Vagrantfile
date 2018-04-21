@@ -12,6 +12,9 @@ SCRIPT
 Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/xenial64"
   config.vm.hostname = "ctf-box"
+  config.vm.provider "virtualbox" do |v|
+		v.name = "pwn-box"
+  end
   config.vm.provision "shell", privileged: false, inline: $bootstrap
   config.vbguest.installer_arguments = []
   config.vm.synced_folder "/home/sin9yt/pwn/ctf/2018", "/home/vagrant/files"
