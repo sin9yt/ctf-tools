@@ -5,4 +5,7 @@ git clone --depth 1 https://github.com/TheRook/subbrute.git
 mkdir -p bin
 cd bin
 ln -s ../subbrute/subbrute.py subbrute
+ln -s ../subbrute/names_small.txt names_small.txt
+ln -s ../subbrute/names.txt names.txt
+ln -s ../subbrute/resolvers.txt resolvers.txt
 cd ..
